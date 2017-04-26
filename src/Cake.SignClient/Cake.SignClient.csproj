@@ -52,19 +52,23 @@
     <Compile Include="File\SignClientFileSettings.cs" />
     <Compile Include="SignClientResolver.cs" />
     <Compile Include="SignClientAliases.cs" />
-    <Compile Include="SignClientRunner`1.cs" />
+    <Compile Include="SignClientRunner.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="File\SignClientFileAliases.cs" />
+    <Compile Include="Zip\SignClientZipAliases.cs" />
+    <Compile Include="Zip\SignClientZipSettings.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="File\sign-arguments.txt" />
+    <Content Include="Zip\sign-arguments.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PreBuildEvent>copy "$(SolutionDir)packages\Microsoft.VSSDK.Vsixsigntool.15.0.26201\tools\vssdk\vsixsigntool.exe" "$(TargetDir)"</PreBuildEvent>
+    <PreBuildEvent>
+    </PreBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
