@@ -1,0 +1,17 @@
+﻿usage: SignClient file [-c <arg>] [-i <arg>] [-o <arg>] [-h <arg>]
+                  [-s <arg>] [-n <arg>] [-d <arg>] [-u <arg>]
+
+    -c, --config <arg>            Full path to config json file
+    -i, --input <arg>             Full path to input file
+    -o, --output <arg>            Full path to output file. May be same
+                                  as input to overwrite. Defaults to
+                                  input file if ommited
+    -h, --hashmode <arg>          Hash mode: either dual or Sha256.
+                                  Default is dual, to sign with both
+                                  Sha-1 and Sha-256 for files that
+                                  support it. For files that don't
+                                  support dual, Sha-256 is used
+    -s, --secret <arg>            Client Secret
+    -n, --name <arg>              Name of project for tracking
+    -d, --description <arg>       Description
+    -u, --descriptionUrl <arg>    Description Url
