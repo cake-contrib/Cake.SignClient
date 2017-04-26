@@ -17,6 +17,10 @@
 |:--:|:--:|
 |[![Build status](https://ci.appveyor.com/api/projects/status/vmv0n3vx0buuqwne/branch/develop?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-signclient/branch/develop)|[![Build status](https://ci.appveyor.com/api/projects/status/vmv0n3vx0buuqwne/branch/develop?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-signclient/branch/master)|
 
+## Coverage
+
+[![Coverage Status](https://coveralls.io/repos/github/cake-contrib/Cake.SignClient/badge.svg?branch=develop)](https://coveralls.io/github/cake-contrib/Cake.SignClient?branch=develop)
+
 
 ## Quick Links
 
