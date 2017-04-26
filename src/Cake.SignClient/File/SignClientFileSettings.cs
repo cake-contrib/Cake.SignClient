@@ -3,7 +3,7 @@
     /// <summary>
     /// Settings for SignClient Sign command.
     /// </summary>
-    public sealed class SignClientSignSettings : AutoToolSettings
+    public sealed class SignClientFileSettings : AutoToolSettings
     {
         /// <summary>
         /// Full path to config json file

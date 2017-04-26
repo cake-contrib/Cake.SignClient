@@ -16,7 +16,7 @@ namespace Cake.SignClient
         /// <param name="context">Cake context</param>
         /// <param name="settings">The file settings.</param>
         [CakeMethodAlias]
-        public static void SignClientFile(this ICakeContext context, SignClientSignSettings settings)
+        public static void SignClientFile(this ICakeContext context, SignClientFileSettings settings)
         {
             if (context == null)
             {
@@ -27,7 +27,7 @@ namespace Cake.SignClient
                 throw new ArgumentNullException("settings");
             }
 
-            var runner = new SignClientRunner<SignClientSignSettings >(context.FileSystem, context.Environment, context.ProcessRunner, context.Tools);
+            var runner = new SignClientRunner<SignClientFileSettings >(context.FileSystem, context.Environment, context.ProcessRunner, context.Tools);
             runner.Run("file", settings, new string[0]);
         }
     }
