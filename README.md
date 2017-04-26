@@ -15,7 +15,7 @@
 
 |Develop|Master|
 |:--:|:--:|
-|[![Build status](https://ci.appveyor.com/api/projects/status/github/cake-contrib/Cake.SignClient?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-signclient/branch/develop)|[![Build status](https://ci.appveyor.com/api/projects/status/github/cake-contrib/Cake.SignClient/branch/develop?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-signclient/branch/master)|
+|[![Build status](https://ci.appveyor.com/api/projects/status/vmv0n3vx0buuqwne/branch/develop?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-signclient/branch/develop)|[![Build status](https://ci.appveyor.com/api/projects/status/vmv0n3vx0buuqwne/branch/develop?svg=true)](https://ci.appveyor.com/project/cakecontrib/cake-signclient/branch/master)|
 
 
 ## Quick Links
