@@ -7,8 +7,8 @@
     <ProjectGuid>{8BD415DE-0D65-42BB-AF87-8AE39E3972BC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Cake.VsixSignTool</RootNamespace>
-    <AssemblyName>Cake.VsixSignTool</AssemblyName>
+    <RootNamespace>Cake.SignClient</RootNamespace>
+    <AssemblyName>Cake.SignClient</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -28,7 +28,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Cake.VsixSignTool.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\Cake.SignClient.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Cake.Core, Version=0.17.0.0, Culture=neutral, processorArchitecture=MSIL">
