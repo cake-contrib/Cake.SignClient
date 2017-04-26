@@ -6,9 +6,9 @@ BuildParameters.SetParameters(context: Context,
                             buildSystem: BuildSystem,
                             sourceDirectoryPath: "./src",
                             title: "Cake.SignClient",
-                            repositoryOwner: "MihaMarkic",
+                            repositoryOwner: "cake-contrib",
                             repositoryName: "Cake.SignClient",
-                            appVeyorAccountName: "MihaMarkic");
+                            appVeyorAccountName: "cakecontrib");
 
 BuildParameters.PrintParameters(Context);
 
